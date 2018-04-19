@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/buttonLinear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LINEAR BUTTON"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="137dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/buttonTable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TABLE BUTTON"
+        android:layout_marginTop="54dp"
+        android:layout_below="@+id/buttonLinear"
+        android:layout_alignLeft="@+id/buttonLinear"
+        android:layout_alignStart="@+id/buttonLinear"
+        android:layout_alignRight="@+id/buttonLinear"
+        android:layout_alignEnd="@+id/buttonLinear" />
+
+    <Button
+        android:id="@+id/buttonRelative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RELATIVE BUTTON"
+        android:layout_marginRight="28dp"
+        android:layout_marginEnd="28dp"
+        android:layout_alignBaseline="@+id/buttonLinear"
+        android:layout_alignBottom="@+id/buttonLinear"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/buttonGrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GRID BUTTON"
+        android:layout_alignBaseline="@+id/buttonTable"
+        android:layout_alignBottom="@+id/buttonTable"
+        android:layout_alignLeft="@+id/buttonRelative"
+        android:layout_alignStart="@+id/buttonRelative"
+        android:layout_alignRight="@+id/buttonRelative"
+        android:layout_alignEnd="@+id/buttonRelative" />
+
+</RelativeLayout>
