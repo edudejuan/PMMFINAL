@@ -4,7 +4,7 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
-    <com.example.davpas.diferentestiposeventos.miButton
+    <com.example.eduardodejuan.diferentestiposeventos.miButton
         android:id="@+id/cmdUno"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

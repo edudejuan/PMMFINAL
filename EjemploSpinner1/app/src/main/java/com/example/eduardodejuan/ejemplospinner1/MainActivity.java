@@ -24,9 +24,9 @@ public class MainActivity extends AppCompatActivity {
 
     private class SpinnerInfo implements AdapterView.OnItemSelectedListener {
         @Override
-        public void onItemSelected(AdapterView<?> espinner, View selectedView,
+        public void onItemSelected(AdapterView<?> spinner, View selectedView,
                                    int selectedIndex, long id) {
-            String selection = espinner.getItemAtPosition(selectedIndex).toString();
+            String selection = spinner.getItemAtPosition(selectedIndex).toString();
             showToast(selection);
         }
 
