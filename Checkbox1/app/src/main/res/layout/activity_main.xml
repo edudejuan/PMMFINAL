@@ -6,38 +6,40 @@
     android:layout_height="fill_parent">
 
     <CheckBox
-        android:text="Cycling"
         android:id="@+id/chkBoxCycling"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-    </CheckBox>
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:background="#ffd4f0"
+        android:text="Ir en Patinete"></CheckBox>
 
     <CheckBox
-        android:text="Teaching"
         android:id="@+id/chkBoxTeaching"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-    </CheckBox>
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:background="#cbe7ff"
+        android:text="Jugar  Hockey"></CheckBox>
 
     <CheckBox
-        android:text="Blogging"
         android:id="@+id/chkBoxBlogging"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-    </CheckBox>
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:background="#ffd4f0"
+        android:text="Programar"></CheckBox>
 
     <Button
-        android:text="Get Hobby"
         android:id="@+id/btnHobby"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-    </Button>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00ff1a"
+        android:text="Seleciona hobby"></Button>
 
     <TextView
+        android:id="@+id/txtHobby"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/txtHobby"
-        android:text="ELIGE TU HOBBY !!!">
-    </TextView>
+        android:text="Elige entre estos 3 hobbies"></TextView>
 
 </LinearLayout>

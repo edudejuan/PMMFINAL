@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    CheckBox chkBoxCycling;
+    CheckBox chkBoxPatin;
     CheckBox chkBoxTeaching;
     CheckBox chkBoxBlogging;
     Button btnHobby;
@@ -19,12 +19,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         initialUISetup();
     }//OnCreate
 
     public void initialUISetup()  {
-        chkBoxCycling = (CheckBox) findViewById(R.id.chkBoxCycling);
+        chkBoxPatin = (CheckBox) findViewById(R.id.chkBoxPatin);
         chkBoxTeaching = (CheckBox) findViewById(R.id.chkBoxTeaching);
         chkBoxBlogging = (CheckBox) findViewById(R.id.chkBoxBlogging);
         btnHobby = (Button)findViewById(R.id.btnHobby);
@@ -39,9 +38,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void getHobbyClick(View v) {
         String strMessage = "";
-        if(chkBoxCycling.isChecked())
+        if(chkBoxPatin.isChecked())
         {
-            strMessage+="Cycling ";
+            strMessage+="Patin  ";
         }
         if(chkBoxTeaching.isChecked())
         {
