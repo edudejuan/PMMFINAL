@@ -14,6 +14,7 @@ public class Pantalla1 extends AppCompatActivity {
     RadioButton radioR;
     RadioButton radioG;
     RadioButton radioB;
+    RadioButton radioY;
     Button botonSet;
     Button botonDelete;
     TextView textView;
@@ -29,6 +30,7 @@ public class Pantalla1 extends AppCompatActivity {
         radioR = (RadioButton) findViewById(R.id.radio1);
         radioG = (RadioButton) findViewById(R.id.radio2);
         radioB = (RadioButton) findViewById(R.id.radio3);
+        radioY = (RadioButton) findViewById(R.id.radio4);
         botonSet = (Button) findViewById(R.id.button1);
         botonDelete = (Button) findViewById(R.id.button2);
         textView = (TextView) findViewById(R.id.textView);
@@ -55,6 +57,9 @@ public class Pantalla1 extends AppCompatActivity {
         }
         if (radioB.isChecked()) {
             textView.setBackgroundColor(Color.BLUE);
+        }
+        if (radioY.isChecked()) {
+            textView.setBackgroundColor(Color.YELLOW);
         }
     }
 }

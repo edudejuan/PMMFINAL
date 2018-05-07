@@ -13,28 +13,34 @@
         android:layout_width="fill_parent"
         android:layout_height="45dp"
         android:gravity="center_horizontal"
-        android:orientation="horizontal">>
+        android:orientation="horizontal">
 
         <RadioButton
             android:id="@+id/radio1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="RED" />
+            android:text="ROJO" />
 
         <RadioButton
             android:id="@+id/radio2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="GREEN" />
+            android:text="VERDE" />
 
         <RadioButton
             android:id="@+id/radio3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="BLUE" />
+            android:text="AZUL" />
+        <RadioButton
+            android:id="@+id/radio4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="AMARILLO" />
     </RadioGroup>
 
     <LinearLayout
@@ -48,7 +54,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:layout_weight="1"
-            android:text="SET COLOR" />
+            android:text="VISUALIZAR COLOR" />
 
         <Button
             android:id="@+id/button2"
@@ -56,13 +62,13 @@
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:layout_weight="1"
-            android:text="DELETE" />
+            android:text="BORRAR COLOR ACTUAL" />
     </LinearLayout>
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="HOLA MUNDO" />
+        android:text="AQUI APARECERÄ LA VISUALIZACIÖN DEL COLOR" />
 
 </LinearLayout>
