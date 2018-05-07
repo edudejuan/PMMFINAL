@@ -5,36 +5,39 @@
     android:orientation="vertical" >
 
     <TableRow>
+
         <AnalogClock
             android:id="@+id/reloj"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content" />
 
         <CheckBox
             android:id="@+id/checkPrueba"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ChekBox de prueba" />
+            android:text="Aceptar Política de Privacidad" />
     </TableRow>
 
     <TableRow>
+
         <Button
             android:id="@+id/botonPrueba"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Boton Prueba" />
+            android:text="Aceptar" />
 
         <TextView
             android:id="@+id/etiquetaPrueba"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Etiqueta de prueba." />
+            android:text="Hacer Click en Aceptar" />
 
         <Button
             android:id="@+id/cmdCerrar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cerrar" android:onClick="cmdCerrarClick"/>
+            android:onClick="cmdCerrarClick"
+            android:text="Cerrar" />
     </TableRow>
 
 </TableLayout>
