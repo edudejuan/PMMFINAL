@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">JuegoBici</string>
+    <color name="black">#222426</color>
+    <color name="yellow">#00ff1a</color>
+    <color name="white">#FFFFFF</color>
+
+
+</resources>
