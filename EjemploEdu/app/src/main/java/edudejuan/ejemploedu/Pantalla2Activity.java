@@ -1,4 +1,4 @@
-package edudejuan.ejemploedu;
+﻿package edudejuan.ejemploedu;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -16,6 +16,6 @@ public class Pantalla2Activity extends AppCompatActivity {
         String nombre = objeto.getNombre();
         int numero = objeto.getNumero();
 
-        //También podríamos usarlo para rellenar el layout de esta actividad o lo que fuese.
+        
     }
 }
