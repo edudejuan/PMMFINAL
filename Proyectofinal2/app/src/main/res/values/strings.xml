@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Cafes</string>
+
+    <string name="cafe_nombre">Nombre</string>
+    <string name="cafe_precio">Precio</string>
+    <string name="cafe_descripcion">Descripción</string>
+    <string name="cafe_comprar">Pedir</string>
+
+    <string name="pedido_cabecera">Historial de pedidos</string>
+    <string name="pedido_cabecera_sin_pedidos">¡Todavía no has pedido nada!</string>
+    <string name="pedido_cafe_nombre">Nombre</string>
+    <string name="pedido_direccion">Dirección</string>
+    <string name="pedido_precio">Precio</string>
+
+    <string name="comprar_cabecera1">¿Local o a domicilio?</string>
+    <string name="comprar_cabecera2">¿Algún extra?</string>
+    <string name="comprar_local">Local</string>
+    <string name="comprar_domicilio">A domicilio</string>
+    <string name="comprar_direccion">Introduce dirección…</string>
+    <string name="comprar_extra1">Extra de crema</string>
+    <string name="comprar_extra2">Bola de helado</string>
+    <string name="comprar_pedir">Pedir</string>
+
+    <string name="menu_pedidos">Mis pedidos</string>
+    <string name="menu_acerca_de">Acerca de…</string>
+
+    <string name="acerca_de">Lo que sea</string>
+    <string name="version">1.0.0</string>
+
+</resources>

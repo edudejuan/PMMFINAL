@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ComprarActivity">
+
+    <ImageView
+        android:id="@+id/activity_comprar_foto_cafe"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8sp"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/activity_comprar_nombre_cafe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8sp"
+        android:layout_marginBottom="4sp"
+        android:text="@string/cafe_nombre"
+        android:textSize="24sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/activity_comprar_descripcion_cafe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16sp"
+        android:text="@string/cafe_descripcion"
+        android:textSize="16sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/activity_comprar_cabecera1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/comprar_cabecera1"
+        android:textAlignment="center"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/activity_comprar_local"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/activity_comprar_local"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/comprar_local" />
+
+        <RadioButton
+            android:id="@+id/activity_comprar_domicilio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/comprar_domicilio" />
+    </RadioGroup>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/activity_comprar_direccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:hint="@string/comprar_direccion"
+            android:inputType="textPostalAddress" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/activity_comprar_cabecera2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8sp"
+        android:text="@string/comprar_cabecera2"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/activity_comprar_crema"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/comprar_extra1" />
+
+        <CheckBox
+            android:id="@+id/activity_comprar_helado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/comprar_extra2" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/activity_comprar_precio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:layout_marginBottom="8sp"
+        android:text="@string/pedido_precio"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/activity_comprar_boton_pedir"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/comprar_pedir" />
+</LinearLayout>
