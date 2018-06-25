@@ -42,9 +42,9 @@ public class SQLiteHelper extends SQLiteOpenHelper {
         );
 
         // Datos de los cafés
-        Cafe cafe1 = new Cafe("Capuccino", "Con Espuma", 4.0f, R.drawable.ic_launcher_background);
-        Cafe cafe2 = new Cafe("Americano", "Café hasta arriba", 5.0f, R.drawable.ic_launcher_background);
-        Cafe cafe3 = new Cafe("Cortado", "Mitad leche mitad café", 6.0f, R.drawable.ic_launcher_background);
+        Cafe cafe1 = new Cafe("Capuccino", "Con Espuma", 4.0f, R.drawable.capuccino);
+        Cafe cafe2 = new Cafe("Americano", "Café hasta arriba", 5.0f, R.drawable.americano);
+        Cafe cafe3 = new Cafe("Cortado", "Mitad leche mitad café", 6.0f, R.drawable.cortado);
 
         db.insert("cafe", null, cafe1.toContentValues());
         db.insert("cafe", null, cafe2.toContentValues());
